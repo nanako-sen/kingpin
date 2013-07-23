@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
+#import "KPAnnotation.h"
 
-@interface TestAnnotation : NSObject <MKAnnotation>
+@interface TestLocationObject : NSObject
+
 
 @property (nonatomic, assign) NSInteger level;
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+
+
 
 @end

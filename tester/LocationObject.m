@@ -6,9 +6,10 @@
 //
 //
 
-#import "MyAnnotation.h"
+#import "LocationObject.h"
 
-@implementation MyAnnotation
+@implementation LocationObject
 
+@synthesize title, coordinate;
 
 @end

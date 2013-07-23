@@ -28,6 +28,7 @@
 @property (nonatomic, readonly) NSSet *annotations;
 
 
+//Custom Annotation Object needs property tilte
 - (id)initWithAnnotations:(NSArray *)annotations;
 
 // Helpers

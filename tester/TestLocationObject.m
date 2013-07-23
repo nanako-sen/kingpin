@@ -6,12 +6,15 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TestAnnotation.h"
+#import "TestLocationObject.h"
 
-@implementation TestAnnotation
+@implementation TestLocationObject
+
+
 
 - (NSString *)title {
-    return [NSString stringWithFormat:@"%i", self.level];
+    return [NSString stringWithFormat:@"Annotation Title %i", self.level];
+
 }
 
 - (NSString *)description {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9346910116A8EC8400DE59FA /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346910016A8EC8400DE59FA /* MyAnnotation.m */; };
+		9346910116A8EC8400DE59FA /* LocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346910016A8EC8400DE59FA /* LocationObject.m */; };
 		9346910716A8F1C200DE59FA /* NSArray+BB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346910616A8F1C200DE59FA /* NSArray+BB.m */; };
 		93BBC0501645A2B2004BC920 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BBC04F1645A2B2004BC920 /* UIKit.framework */; };
 		93BBC0521645A2B2004BC920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BBC0511645A2B2004BC920 /* Foundation.framework */; };
@@ -26,12 +26,17 @@
 		93BBC0A41645B78C004BC920 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BBC0981645B78C004BC920 /* ViewController.xib */; };
 		93BBC0A61645B78C004BC920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC09C1645B78C004BC920 /* main.m */; };
 		93BBC0A71645B78C004BC920 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC09E1645B78C004BC920 /* ViewController.m */; };
-		93BBC0AF1645CAE5004BC920 /* TestAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC0AE1645CAE5004BC920 /* TestAnnotation.m */; };
+		93BBC0AF1645CAE5004BC920 /* TestLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC0AE1645CAE5004BC920 /* TestLocationObject.m */; };
+		A6E35912179E6B340055171E /* ClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E35911179E6B340055171E /* ClusterAnnotation.m */; };
+		A6E35917179E6D960055171E /* cluster.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E35913179E6D950055171E /* cluster.png */; };
+		A6E35918179E6D960055171E /* cluster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E35914179E6D950055171E /* cluster@2x.png */; };
+		A6E35919179E6D960055171E /* pinpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E35915179E6D950055171E /* pinpoint.png */; };
+		A6E3591A179E6D960055171E /* pinpoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E35916179E6D950055171E /* pinpoint@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		934690FF16A8EC8400DE59FA /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
-		9346910016A8EC8400DE59FA /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		934690FF16A8EC8400DE59FA /* LocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationObject.h; sourceTree = "<group>"; };
+		9346910016A8EC8400DE59FA /* LocationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationObject.m; sourceTree = "<group>"; };
 		9346910516A8F1C200DE59FA /* NSArray+BB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BB.h"; sourceTree = "<group>"; };
 		9346910616A8F1C200DE59FA /* NSArray+BB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BB.m"; sourceTree = "<group>"; };
 		93BBC0411645A1F8004BC920 /* KPAnnotationTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAnnotationTree.h; sourceTree = "<group>"; };
@@ -60,8 +65,14 @@
 		93BBC09C1645B78C004BC920 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93BBC09D1645B78C004BC920 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93BBC09E1645B78C004BC920 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		93BBC0AD1645CAE5004BC920 /* TestAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAnnotation.h; sourceTree = "<group>"; };
-		93BBC0AE1645CAE5004BC920 /* TestAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAnnotation.m; sourceTree = "<group>"; };
+		93BBC0AD1645CAE5004BC920 /* TestLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLocationObject.h; sourceTree = "<group>"; };
+		93BBC0AE1645CAE5004BC920 /* TestLocationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLocationObject.m; sourceTree = "<group>"; };
+		A6E35910179E6B340055171E /* ClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotation.h; sourceTree = "<group>"; };
+		A6E35911179E6B340055171E /* ClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotation.m; sourceTree = "<group>"; };
+		A6E35913179E6D950055171E /* cluster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cluster.png; sourceTree = "<group>"; };
+		A6E35914179E6D950055171E /* cluster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cluster@2x.png"; sourceTree = "<group>"; };
+		A6E35915179E6D950055171E /* pinpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinpoint.png; sourceTree = "<group>"; };
+		A6E35916179E6D950055171E /* pinpoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinpoint@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +165,10 @@
 		93BBC0901645B78C004BC920 /* tester */ = {
 			isa = PBXGroup;
 			children = (
+				A6E35913179E6D950055171E /* cluster.png */,
+				A6E35914179E6D950055171E /* cluster@2x.png */,
+				A6E35915179E6D950055171E /* pinpoint.png */,
+				A6E35916179E6D950055171E /* pinpoint@2x.png */,
 				93BBC0911645B78C004BC920 /* AppDelegate.h */,
 				93BBC0921645B78C004BC920 /* AppDelegate.m */,
 				93BBC0931645B78C004BC920 /* Default-568h@2x.png */,
@@ -163,13 +178,15 @@
 				93BBC09A1645B78C004BC920 /* kingpinTestApplication-Info.plist */,
 				93BBC09B1645B78C004BC920 /* kingpinTestApplication-Prefix.pch */,
 				93BBC09C1645B78C004BC920 /* main.m */,
-				93BBC0AD1645CAE5004BC920 /* TestAnnotation.h */,
-				93BBC0AE1645CAE5004BC920 /* TestAnnotation.m */,
+				93BBC0AD1645CAE5004BC920 /* TestLocationObject.h */,
+				93BBC0AE1645CAE5004BC920 /* TestLocationObject.m */,
 				93BBC09D1645B78C004BC920 /* ViewController.h */,
 				93BBC09E1645B78C004BC920 /* ViewController.m */,
 				93BBC0981645B78C004BC920 /* ViewController.xib */,
-				934690FF16A8EC8400DE59FA /* MyAnnotation.h */,
-				9346910016A8EC8400DE59FA /* MyAnnotation.m */,
+				934690FF16A8EC8400DE59FA /* LocationObject.h */,
+				9346910016A8EC8400DE59FA /* LocationObject.m */,
+				A6E35910179E6B340055171E /* ClusterAnnotation.h */,
+				A6E35911179E6B340055171E /* ClusterAnnotation.m */,
 			);
 			path = tester;
 			sourceTree = "<group>";
@@ -229,6 +246,10 @@
 				93BBC0A21645B78C004BC920 /* Default@2x.png in Resources */,
 				93BBC0A31645B78C004BC920 /* InfoPlist.strings in Resources */,
 				93BBC0A41645B78C004BC920 /* ViewController.xib in Resources */,
+				A6E35917179E6D960055171E /* cluster.png in Resources */,
+				A6E35918179E6D960055171E /* cluster@2x.png in Resources */,
+				A6E35919179E6D960055171E /* pinpoint.png in Resources */,
+				A6E3591A179E6D960055171E /* pinpoint@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +267,10 @@
 				93BBC09F1645B78C004BC920 /* AppDelegate.m in Sources */,
 				93BBC0A61645B78C004BC920 /* main.m in Sources */,
 				93BBC0A71645B78C004BC920 /* ViewController.m in Sources */,
-				93BBC0AF1645CAE5004BC920 /* TestAnnotation.m in Sources */,
-				9346910116A8EC8400DE59FA /* MyAnnotation.m in Sources */,
+				93BBC0AF1645CAE5004BC920 /* TestLocationObject.m in Sources */,
+				9346910116A8EC8400DE59FA /* LocationObject.m in Sources */,
 				9346910716A8F1C200DE59FA /* NSArray+BB.m in Sources */,
+				A6E35912179E6B340055171E /* ClusterAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
