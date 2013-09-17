@@ -38,6 +38,7 @@
         {
             id obj = [annotations objectAtIndex:0];
             self.title = [obj valueForKey:@"title"];
+            self.subtitle = [obj valueForKey:@"subtitle"];
         }
         [self calculateValues];
     }
