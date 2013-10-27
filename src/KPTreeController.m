@@ -50,6 +50,7 @@
 
 - (void)setAnnotations:(NSArray *)annotations {
     [self.mapView removeAnnotations:[self.annotationTree.annotations allObjects]];
+    [self.mapView removeAnnotations:self.mapView.annotations];
     self.annotationTree = [[KPAnnotationTree alloc] initWithAnnotations:annotations];
     [self _updateVisibileMapAnnotationsOnMapView:NO];
 }
